@@ -1,0 +1,57 @@
+{
+  "name": "shortfundly-internflow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "@hookform/resolvers": "^3.10.0",
+    "@next-auth/mongodb-adapter": "^1.1.3",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/papaparse": "^5.5.2",
+    "@types/pdf-parse": "^1.1.5",
+    "date-fns": "^4.4.0",
+    "googleapis": "^187.0.0",
+    "inngest": "^4.25.0",
+    "lucide-react": "^1.61.0",
+    "mammoth": "^1.13.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^9.11.2",
+    "msedge-tts": "^2.1.0",
+    "next": "^15.5.24",
+    "next-auth": "^4.24.15",
+    "nodemailer": "^7.0.13",
+    "papaparse": "^5.7.0",
+    "pdf-parse": "^2.4.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.90.0",
+    "read-excel-file": "^9.3.12",
+    "recharts": "^3.10.1",
+    "sonner": "^2.0.8",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "^15.5.24",
+    "postcss": "8.5.31",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^4.1.12"
+  },
+  "overrides": {
+    "postcss": "8.5.31"
+  }
+}

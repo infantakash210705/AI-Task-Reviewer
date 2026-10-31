@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "title": "Build a Responsive Landing Page",
+      "shortDescription": "Create a mobile-first landing page for a short film platform.",
+      "fullDescription": "Build a responsive landing page using HTML, CSS and a little JavaScript. It should have a hero section, a featured films grid and a newsletter form.",
+      "category": "Frontend",
+      "difficulty": "BEGINNER",
+      "estimatedDuration": 5,
+      "status": "ACTIVE",
+      "requiredSkills": ["HTML", "CSS", "JavaScript"],
+      "requirements": ["Hero section with call to action", "Featured films grid with at least 6 cards", "Newsletter form with email validation"],
+      "acceptanceCriteria": ["Page is usable on a 360px wide screen", "Email field shows an error for invalid input", "Lighthouse accessibility score of 90 or more"],
+      "expectedDeliverables": ["Public GitHub repository", "README with setup steps"]
+    },
+    {
+      "title": "REST API for Film Submissions",
+      "shortDescription": "Create a small REST API to accept and list film submissions.",
+      "fullDescription": "Build a Node.js and Express API with MongoDB. Support creating a submission, listing submissions with pagination and fetching one submission by id.",
+      "category": "Backend",
+      "difficulty": "INTERMEDIATE",
+      "estimatedDuration": 7,
+      "status": "ACTIVE",
+      "requiredSkills": ["Node.js", "Express", "MongoDB"],
+      "requirements": ["POST /submissions creates a record", "GET /submissions supports page and limit", "Input is validated"],
+      "acceptanceCriteria": ["Invalid input returns a 400 with a clear message", "Pagination returns total and pages", "README documents every endpoint"],
+      "expectedDeliverables": ["Public GitHub repository", "Postman collection or curl examples"]
+    }
+  ]
+}

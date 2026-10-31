@@ -1,0 +1,19 @@
+title,shortDescription,fullDescription,category,difficulty,estimatedDuration,status,requiredSkills,requirements,acceptanceCriteria,expectedDeliverables
+Build a Responsive Landing Page,Create a mobile-first landing page for a short film platform.,"Build a responsive landing page using HTML, CSS and a little JavaScript. It should have a hero section, a featured films grid and a newsletter form.",Frontend,BEGINNER,5,ACTIVE,HTML|CSS|JavaScript,"Hero section with call to action
+Featured films grid with at least 6 cards
+Newsletter form with email validation","Page is usable on a 360px wide screen
+Email field shows an error for invalid input
+Lighthouse accessibility score of 90 or more","Public GitHub repository
+README with setup steps"
+REST API for Film Submissions,Create a small REST API to accept and list film submissions.,"Build a Node.js and Express API with MongoDB. Support creating a submission, listing submissions with pagination and fetching one submission by id.",Backend,INTERMEDIATE,7,ACTIVE,Node.js|Express|MongoDB,"POST /submissions creates a record
+GET /submissions supports page and limit
+Input is validated","Invalid input returns a 400 with a clear message
+Pagination returns total and pages
+README documents every endpoint","Public GitHub repository
+Postman collection or curl examples"
+Admin Dashboard with Charts,Build a dashboard that shows submission statistics.,"Create a React dashboard that fetches statistics from a mock API and shows a line chart, a bar chart and a summary table.",Frontend,ADVANCED,10,DRAFT,React|TypeScript|Charts,"Line chart of submissions per week
+Bar chart by category
+Loading and error states","Charts update when the date filter changes
+No TypeScript errors
+Components have basic tests","Public GitHub repository
+Short demo GIF in the README"
